@@ -4,6 +4,9 @@ from random import sample
 
 class CodeMaker(object):
     def __init__(self, code_length):
+        """
+        CodeMaker class holds the secret code, and evaluates if a guess is correct.
+        """
         self.code_length = code_length
         self.secret_code = CodeMaker.generateCode(code_length)
 

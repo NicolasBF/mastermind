@@ -6,6 +6,9 @@ from CodeMaker import CodeMaker
 
 class Game(object):
     def __init__(self, number_of_games, number_of_guesses, code_length):
+        """
+        Game class implements the user interface and gameplay.
+        """
         self.code_length = code_length
         self.number_of_games = number_of_games
         self.number_of_guesses = number_of_guesses
